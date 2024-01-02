@@ -1,0 +1,37 @@
+Pelin tavoitteena on saadan jokin valittu kahden potenssi(esim 2048) siirtelemällä numeroituja laatikoita siten,että samalla rivillä tai sarakkeella olevat yhtä suuret luvut lasketaan yhteen, jolloin ne yhdistyvät ja muodostavat uuden laatikon, jonka arvo on kahden edellisen summa.
+
+Peli päättyy siten, että saavutetaan tavoiteltu luku ja voittaa tai kaikki ruudut täyttyvät, jolloin uusia numeroita ei voida enää luoda, jolloin peli loppuu häviöön.
+
+Pelissä voi itse valita siemenluvun, joka toimii lukujen arpomisessa sekä halutun kahden potenssin,kuten 4,8,16,32,...,1024,2048. Jos pelaaja valitsee luvun, joka ei ole kahden potenssi valitaan automaattisesti luku 2048 tavoitteeksi. Laattoja pelaaja voi siirrellä nuolinäppäimistä, jotka osoittavat laattojen liikesuunnan. 
+
+
+----------------------------------------------------------------------------------------------------------------------------
+Ominaisuuksia Ja Lisäominaisuuksia
+
+-Pelaaja voi syöttää siemenluvun ja tavoiteluvun. Voi myös jättää kentät tyhjiksi, jolloin käytetään oletusarvoja.
+
+-Pelaaja liikkuu nuolista niiden osoittamiin suuntiin.
+
+-Quit painikkeesta voi sulkea pelin.
+
+-Pelaaja voi halutessaan aloittaa pelin uudelleen, kun se on ohi tai kesken pelin. Pelin aloittaminen ja uudelleenaloittaminen tapahtuvat samasta napista.
+
+
+-Pelissä on ajastin, joka toimii siten, että aina kun pelaaja aloittaa uuden pelin se lähtee liikkeelle ja sen voi halutessaa pysäyttää, jolloin ruutujen siirtäminen ei ole enää mahdollista. Ajastimen aloittaminen ja pysäyttäminen tapahtuvat myös samasta napista. Ajastinta ei voi aloittaa, jos peliä ei olla vielä aloitettu.
+
+
+-Pelin vasemmassa ylälaidassa on asetukset valikko, josta löytyy peliohje sekä mahdollisuus valita
+kieli suomen ja englannin välillä.
+
+
+-Peliruutujen yläpuolelta löytyy pistelaskuri, josta nähdään tietyn pelikerran pisteet. Uuden pelin aloittaminen nollaa pisteet.
+
+
+-Jokaisella numerolla on oma värinsä eli aina uuden luvun ilmestyessä peliin sillä on jokin uusi väri.
+
+-Voiton tai häviön yhteydessä pelin taustaväri muuttuu riippuen siitä voittiko pelaaja vai ei. Uuden pelin aloittaminen palauttaa oletustaustan.
+
+-Pelissä tarkistetaan onko tavoiteluku kahden potenssi vai ei. Jos ei ole niin oletuksena se on 2048
+
+
+

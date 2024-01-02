@@ -1,0 +1,9 @@
+Pelin tavoitteena on saadan jokin valittu kahden potenssi(esim 2048) siirtelemällä numeroituja laatikoita siten,että samalla rivillä tai sarakkeella olevat yhtä suuret luvut lasketaan yhteen, jolloin ne yhdistyvät ja muodostavat uuden laatikon, jonka arvo on kahden edellisen summa.
+
+Peli päättyy siten, että saavutetaan tavoiteltu luku ja voittaa tai kaikki ruudut täyttyvät, jolloin uusia numeroita ei voida enää luoda, jolloin peli loppuu häviöön.
+
+Pelissä voi itse valita siemenluvun, joka toimii lukujen apomisessa sekä halutun kahden potenssin,kuten 4,8,16,32,...,1024,2048. Jos pelaaja valitsee luvun, joka ei ole kahden potenssi valitaan automaattisesti luku 2048 tavoitteeksi. Laattoja pelaaja voi siirrellä nuolinäppäimistä, jotka osoittavat laattojen liikesuunnan.
+
+Pelaaja voi halutessaan aloittaa pelin uudelleen, kun se on ohi tai kesken pelin.
+
+

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/kuvat2">
+        <file>images/Nuoli Alas.png</file>
+        <file>images/Nuoli Oikea.png</file>
+        <file>images/Nuoli Vasen.png</file>
+        <file>images/Nuoli Ylos.png</file>
+    </qresource>
+</RCC>
